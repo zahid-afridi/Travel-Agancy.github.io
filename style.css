@@ -1,0 +1,382 @@
+body
+{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.section
+{
+    margin-top: 80px;
+    margin-top: 80px;
+}
+header .navbar{
+    background-color:#c2b6b6;
+}
+header .navbar-brand
+
+{
+ color: rgb(45, 16, 176) !important;
+ font-size: 35px;
+}
+header .navbar-brand span{
+    color: rgb(229, 141, 18);
+}
+header .navbar .nav-link
+{
+    color: white !important;
+    font-size: 17px;
+    margin-top: 3px;
+    
+}
+header .navbar .nav-link:hover{
+    color: red !important;
+}
+.nav-item
+{
+    list-style: none ;
+}
+.nav-item .btn
+{
+    border: 2px solid green;
+}
+.nav-item .btn:hover{
+    background-color: green;
+    color: white;
+}
+
+/*       navbar end*/
+
+
+.carousel-item
+{
+    height: 100vh;
+    min-width: 300px;
+}
+.carousel-caption
+{
+    bottom: 50px !important;
+    z-index: 2;
+}
+
+.bg-1
+{
+    background-image: url(img/airplane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(50%);
+}
+.bg-2
+{
+    background-image: url(img/airplane2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(50%);
+}
+.bg-3
+{
+    background-image: url(img/airplane3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(50%);
+}
+
+.carousel-caption h5 
+{
+    letter-spacing: 2px;
+    font-size: 55px;
+   margin-top: -100px;
+
+}
+
+.carousel-caption p
+{
+    font-size: 20px;
+}
+@media (max-width:991px)
+{
+    .carousel-caption h5 
+{
+    letter-spacing: 2px;
+    font-size: 35px;
+   margin-top: -100px;
+
+}
+.navbar-nav
+{
+    text-align: center;
+
+}
+
+}
+
+
+/*tour section start*/
+#tour-section
+{
+    background: #f7ecf2;
+    padding: 50px 0;
+}
+#tour-section .container .row
+{
+    margin-top: 15px;
+}
+#tour-section .container .col-md-12  h2
+{
+    color: white !important;
+    background: blue;
+    font-size: 50px !important;
+}
+#tour-section .container .col-md-6 img
+{
+    width: 450px !important;
+}
+#tour-section .container .col-md-6 h3
+{
+     font-size: 40px;
+    color: rgb(9, 123, 81);
+}
+#tour-section .container .col-md-6 h4
+{
+ font-size: 30px;
+    font-weight: bold;
+}
+#tour-section .container .col-md-6 p
+{
+    color: gray;
+    font-size: 18px;
+}
+#tour-section .container .col-md-6 h5
+{
+    font-weight: bold;
+}
+#tour-section .container .col-md-6 .btn
+{
+      border: 2px solid green;
+    margin-top: 11px;
+}
+#tour-section .container .col-md-6 .btn:hover
+{
+    background: green;
+    color: white;
+}
+#tour-section .container .col-md-6 .buy
+{
+    background: red;
+    color: white;
+    border: 2px solid red;
+    outline: none;
+    margin-left: 12px;
+}
+#tour-section .container .col-md-6 .buy:hover
+{
+    background:green;
+    color: white;
+    border: 2px solid green;
+}
+@media (max-width:991px)
+{
+  #tour-section .container .col-md-12  h2
+{
+    color: white !important;
+    background: blue;
+    font-size: 30px !important;
+}  
+#tour-section .container .col-md-6 h3
+{
+     font-size: 30px;
+    color: rgb(9, 123, 81);
+}
+#tour-section .container .col-md-6 img
+{
+    width: 350px !important;
+}
+}
+@media(max-width:767px)
+{
+  #tour-section .container .col-md-6 img
+{
+    width: 450px !important;
+}  
+#tour-section .container .col-md-6 h3
+{
+     font-size: 40px;
+    color: rgb(9, 123, 81);
+}
+  #tour-section .container .col-md-12  h2
+{
+    color: white !important;
+    background: blue;
+    font-size: 50px !important;
+} 
+}
+@media (max-width:481px)
+{
+      #tour-section .container .col-md-12  h2
+{
+    color: white !important;
+    background: blue;
+    font-size: 30px !important;
+} 
+  #tour-section .container .col-md-6 img
+{
+    width: 350px !important;
+} 
+}
+@media(max-width:365px)
+{
+    #tour-section .container .col-md-6 img
+{
+    width: 300px !important;
+}   
+}
+
+
+
+/*about section start*/
+#about-section
+{
+    margin-top: 80px;
+    margin-top: 80px;
+}
+#team-section .container h2,
+#about-section .container .col-md-6 h3 
+{
+    margin-left: 160px;
+
+    font-size: 40px;
+    color: #2f05e8;
+    position: relative;
+}
+#about-section .container .col-md-6 p
+{
+    font-size: 14px;
+    color: gray;
+}
+#about-section .container .col-md-6 .btn
+{
+    border: 2px solid red;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#about-section .container .col-md-6 .btn:hover
+{
+    background-color: red;
+    color: white;
+}
+
+#about-section .container .col-md-6 h3::before
+{
+              content: '';
+              width: 80px;
+              height: 2px;
+              top: 50px;
+              left: 45px;
+              background-color: #0c7528;
+              position: absolute;
+}
+@media (max-width:767px)
+{
+    #about-section .container .col-md-6 img
+    {
+        margin-top: 12px;
+    }
+}
+@media (max-width:510px)
+{
+    #about-section .container .col-md-6 h3 
+    {
+        margin-left: 0px;
+    
+        font-size: 40px;
+        color: #2f05e8;
+        position: relative;
+    } 
+}
+
+/*about section end*/
+#team-section
+{
+    background: #EFF5F5;
+    padding: 30px 0;
+}
+#team-section .container
+{
+    margin-top: 30px;
+}
+#team-section .container .col-md-12 h2
+{
+    font-size: 50px;
+    bottom: 20px;
+
+}
+#team-section .container .name
+{
+    margin-top: 20px;
+}
+#team-section .container .name h4
+{
+ font-size: 18px;
+}
+#team-section .container .name i 
+{
+    font-size: 13px;
+}
+@media (max-width:850px)
+{
+  #team-section .container .col-md-12 h2
+{
+    font-size: 50px;
+    bottom: 20px;
+    margin-right: 250px;
+}
+
+}
+@media (max-width:767px)
+{
+  #team-section .container .col-md-12 h2
+{
+    font-size: 20px;
+    bottom: 20px;
+    margin-right: 250px;
+}
+
+}
+
+/* team section :end */
+
+
+#flight-section
+{
+    background: black;
+    padding: 50px 10px;
+}
+#flight-section .container .row .col-md-12 h3 
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+#footer
+{
+    background-color:#8B7E74;
+    color: white;
+    padding: 30px 0;
+  
+}
+#footer ul li
+
+{
+    list-style: none;
+}
+#footer ul li a 
+{
+    text-decoration: none;
+    color: white;
+}
+#footer .fa-brands
+{
+    color: white;
+    font-size: 20px;
+}
